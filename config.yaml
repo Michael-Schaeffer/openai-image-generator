@@ -1,0 +1,22 @@
+# config.yaml
+
+# OpenAI API Configuration
+api:
+  # The environment variable name storing your OpenAI API key
+  key_env_var: "OPENAI_API_KEY"
+
+# Image Generation Settings
+image_generation:
+  # Image format options:
+  # - "1024x1024" (square)
+  # - "1792x1024" (landscape)
+  # - "1024x1792" (portrait)
+  format: "1792x1024"
+
+  # OpenAI model to use for image generation
+  model: "dall-e-3"
+
+# File Storage Configuration
+storage:
+  # Directory path to save the downloaded images
+  save_path: "downloads/images"
